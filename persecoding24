@@ -1,1 +1,20 @@
 # question 1
+x = int(input())
+y = int(input())
+z = int(input())
+total = x + 12*(y*z)
+print(total)
+
+# question 2 
+money = int(input())
+cost = int(input())
+rides = money // cost 
+print(rides)
+
+# question 3 
+encrypt = str(input())
+last_two = encrypt[2:]
+decrypt = last_two + encrypt[:2]
+print(decrypt)	
+
+# question 4 
