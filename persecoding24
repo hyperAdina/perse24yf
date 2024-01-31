@@ -32,4 +32,33 @@ else:
 	print("OK")
 
 # question 5 
+offer =  str(input())
+additional = 0
+if offer == 't' or offer == 'c':
+	additional = int(input())
+number = 1 + additional
+print(number )
 
+# question 6 
+total = 0 
+while total < 12:
+	drink = int(input())
+	total += drink 
+over = total-12
+print(over)
+
+# question 7 
+word = int(input())
+if word <= 5:
+	print(word)
+remainder = word % 5 
+new_word = word - remainder 
+days = new_word // 5 
+cnt = 1
+interaction = 0
+while cnt <= days:
+	interaction += (cnt*5)
+	cnt += 1 
+interaction += (cnt-1)*5
+interaction += remainder 
+print(interaction)
