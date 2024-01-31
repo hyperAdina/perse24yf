@@ -1,0 +1,4 @@
+encrypt = str(input())
+last_two = encrypt[2:]
+decrypt = last_two + encrypt[:2]
+print(decrypt)	
