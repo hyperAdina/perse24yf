@@ -1,0 +1,6 @@
+offer =  str(input())
+additional = 0
+if offer == 't' or offer == 'c':
+	additional = int(input())
+number = 1 + additional
+print(number )
