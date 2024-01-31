@@ -1,0 +1,12 @@
+first = str(input())
+second = str(input())
+third = str(input())
+
+if (second != first) and (third != first):
+	print("BOTH MISMATCH")
+elif (second != first):
+	print("ENTRY 2 MISMATCH")
+elif (third != first):
+	print("ENTRY 3 MISMATCH")
+else:
+	print("OK")
