@@ -1,0 +1,14 @@
+word = int(input())
+if word <= 5:
+	print(word)
+remainder = word % 5 
+new_word = word - remainder 
+days = new_word // 5 
+cnt = 1
+interaction = 0
+while cnt <= days:
+	interaction += (cnt*5)
+	cnt += 1 
+interaction += (cnt-1)*5
+interaction += remainder 
+print(interaction)
